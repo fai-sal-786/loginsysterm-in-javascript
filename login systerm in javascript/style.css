@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.container{
+    height: 350px;
+    width: 350px;
+    /* background-color: rgb(217, 215, 215); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin-top: auto;
+}
+#username {
+    width: 220px;
+    margin-top: 20px;
+}
+
+#password {
+    width: 220px;
+    margin-top: 20px;
+}
+
+#btn{
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 90px;
+    background-color: blue;
+    color: white;
+}
+#loginMessage{
+    margin-top: 40px;
+}
